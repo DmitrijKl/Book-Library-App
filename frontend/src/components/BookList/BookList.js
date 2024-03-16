@@ -9,7 +9,6 @@ function BookList() {
   });
   const dispatch = useDispatch();
   const handleDeleteBook = (id) => {
-    console.log(id);
     dispatch(deleteBook(id));
   };
 
