@@ -41,6 +41,10 @@
   flex: 1;
   text-align: left;
 }
+.book-list .book-actions {
+  display: flex;
+  align-items: center;
+}
 
 .book-list .star-icon {
   width: 24px;
