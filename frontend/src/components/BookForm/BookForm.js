@@ -14,6 +14,7 @@ function BookForm() {
     const randomIndex = Math.floor(Math.random() * BooksData.length);
     const randomBook = BooksData[randomIndex];
     const randomBookWithId = {
+      isFavorite: false,
       ...randomBook,
       id: uuidv4(),
     };
@@ -23,6 +24,7 @@ function BookForm() {
     e.preventDefault();
     if (title && author) {
       const book = {
+        isFavorite: false,
         title,
         author,
         id: uuidv4(),
