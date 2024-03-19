@@ -3,7 +3,7 @@ import "./BookForm.css";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import createBookWithId from "../../utils/createBookWithID.js";
-import { addBook } from "../../redux/books/actionCreators";
+import { addBook } from "../../redux/slices/booksSlice.js";
 import BooksData from "../../data/books.json";
 
 function BookForm() {
