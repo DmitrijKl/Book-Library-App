@@ -30,7 +30,7 @@
 .book-form button:hover {
   background-color: #0056b3;
 }
-.book-from .spinner {
+.book-form .spinner {
   animation: spinner 1s infinite linear;
   margin-left: 10px;
 }
